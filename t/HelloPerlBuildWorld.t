@@ -16,9 +16,8 @@ like( $helloCall, qr/Hello, .*World/, "hello() RE test" );
 is( $helloCall, "Hello, Perl Build World!", "hello() IS test" );
 
 # Do not test bye() routine
-# actually, do...
-my $byCall = HelloPerlBuildWorld::bye();
-like( $byCall, qr/cruel/, "bye() RE test" );
+#my $byCall = HelloPerlBuildWorld::bye();
+#like( $byCall, qr/cruel/, "bye() RE test" );
 
 # Test repeat() routine using a got/expected routine
 for ( my $ctr = 1 ; $ctr <= 10 ; $ctr++ ) {
