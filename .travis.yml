@@ -3,3 +3,5 @@ perl:
         - "5.20"
         - "5.18"
         - "5.8"
+script:
+        perl Build.PL && ./Build build && cover -test -report coveralls
