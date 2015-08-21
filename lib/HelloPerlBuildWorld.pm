@@ -33,7 +33,7 @@ sub argumentTest {
         return "unknown";
     }
 
-    return "Unreachable code: cannot be covered";
+    # return "Unreachable code: cannot be covered";
 }
 
 1;
